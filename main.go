@@ -63,7 +63,7 @@ func sanitizeInput(input string) string {
 }
 
 func main() {
-	http.Handle("/static/", http.StripPrefix("/static/", http.FileServer(http.Dir("static"))))
+	http.Handle("/static/", http.StripPrefix("/static/", http.FileServer(http.Dir("./static"))))
 
 	http.HandleFunc("/", homeHandler)
 	http.HandleFunc("/search", searchHandler)
