@@ -21,8 +21,8 @@ Before you begin, ensure you have the following installed:
 
 1. Clone this repository:
     ```bash
-    git clone https://github.com/your-username/beverage-recipe-finder.git
-    cd beverage-recipe-finder
+    git clone https://github.com/your-username/Recipe.git
+    cd Recipie
     ```
 
 2. Create a directory structure:
